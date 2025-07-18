@@ -25,13 +25,18 @@ This project was created as part of a web development learning journey and focus
 ✅ Custom footer with social links and copyright
 
  🙋 Author Info
+ 
 👤 Noman Awan
+
 Project: Elementra Fast Food Website
+
 Institute: SMIT
+
 Trainer: Sir Shahmeer
 
 📧 Email: nomiawandx@gmail.com
 
 📄 License
 This project is developed for educational and personal use only.
+
 You may not reuse or distribute this project for commercial purposes without proper permission.

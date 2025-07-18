@@ -674,9 +674,15 @@ footer{
     font-size: 3vw;
 }
 .ftr-top-right{
-    width: 30vw;
+    width: 35vw;
     display: flex;
     align-items: center;
+}
+.ftr-top-right h2{
+    font-size: 1.4vw;
+}
+.ftr-top-right img{
+    width: 20vw;
 }
 
 .ftr-btwn{
@@ -690,6 +696,9 @@ footer{
 }
 .ftr-btwn-left{
     width: 30vw;
+}
+.ftr-btwn-left h2{
+    font-size: 1.4vw;
 }
 
 .ftr-btwn-right{
@@ -706,7 +715,7 @@ footer{
     width: 12vw;
 }
 .address h2{
-
+    font-size: 1.6vw;
 }
 .address ul{
     display: flex;
@@ -723,7 +732,7 @@ footer{
     gap: 1vw;
 }
 .links h2{
-
+    font-size: 1.6vw;
 }
 .links ul{
     display: flex;
@@ -739,7 +748,7 @@ footer{
     gap: 1vw;
 }
 .social-link h2{
-
+    font-size: 1.6vw;
 }
 .social-link ul{
     display: flex;

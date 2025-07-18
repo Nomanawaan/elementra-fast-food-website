@@ -761,7 +761,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
+    gap: 1vw;
 }
 .social-link ul li{
     width: 3vw;

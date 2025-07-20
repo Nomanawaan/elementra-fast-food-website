@@ -116,16 +116,13 @@ header {
     background-size: cover;
 }
 
-.hero-sec-top {
-    /* display: flex;
+/* .hero-sec-top {
+    display: flex;
     flex-direction: row;
-    align-items: center;     */
-}
+    align-items: center;    
+} */
 .img-hero{
     margin-left: 12vw;
-}
-.head-hero{
-    
 }
 .head-hero h1{
     color: #ffa600;
@@ -140,9 +137,6 @@ header {
     top: 0vw;
     left: 20vw;
 }
-.hero-txt-up{
-
-}
 .hero-txt-up p{
     color: white;
     position: absolute;
@@ -150,9 +144,6 @@ header {
     right: 10vw;
     width: 20vw;
     font-size: 1.4vw;
-}
-.head-btm{
-
 }
 .head-btm h1{
     color: #ffa600;
@@ -353,7 +344,6 @@ header {
     /* position: relative; */
     margin-top: -4vw;
     padding-top: 0vw;
-    z-index: ;
 }
 
 .s4-flex-box {
@@ -513,9 +503,6 @@ header {
     margin: 5vw auto;
     /* background: blue; */
     padding: 1vw;
-}
-.sec-6-inner{
-    
 }
 .s6-flex-box{
     display: flex;
@@ -679,17 +666,11 @@ footer{
     background: #70221a;
     padding: 2vw 5vw;
 }
-.footer-inner{
-    /* background: blue; */
-}
 .ftr-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
-}
-.ftr-top-left{
-
 }
 .ftr-top-left img{
     width: 18vw;

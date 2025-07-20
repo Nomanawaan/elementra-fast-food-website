@@ -8,14 +8,13 @@
 
 body {
     width: 100%;
-    background: #cb2f22;
-    opacity: 0.9;
 }
 
 .container {
     width: 100%;
     /* background: yellow; */
-
+    background: #cc3123;
+    opacity: 0.9;
 }
 
 /* header css start */
@@ -62,9 +61,22 @@ header {
 
 .nav li {
     font-size: 1.2vw;
-    color: white;
+    /* color: white; */
     font-weight: 700;
 }
+
+.header-right .nav li a {
+    color: #f2f2f2;
+}
+
+.header-right .nav li a:hover {
+    color: #ffab19;
+}
+
+.header-right .nav li a:active {
+    color: rgb(224, 224, 224);
+}
+
 
 .btn-head {
     font-size: 1.2vw;
@@ -75,9 +87,15 @@ header {
 .x {
     color: white;
 }
+.x:hover{
+    color: #ffab19;
+}
 
 .insta {
     color: white;
+}
+.insta:hover{
+    color: #ffab19;
 }
 
 /* hero sec css start */
@@ -733,6 +751,15 @@ footer{
 .address ul li{
     font-size: 1.4vw;
 }
+.address ul li a{
+    color: white;
+}
+.address ul li a:hover {
+    color: #ffa600;
+}
+.number{
+    font-size: 1.6vw;
+}
 .links{
     display: flex;
     flex-direction: column;
@@ -748,6 +775,12 @@ footer{
 }
 .links ul li{
     font-size: 1.4vw;
+}
+.links ul li a {
+    color: rgb(224, 224, 224);
+}
+.links ul li a:hover {
+    color: #ffa600;
 }
 .social-link{
     display: flex;
@@ -774,7 +807,12 @@ footer{
     align-items: center;
     justify-content: center;
 }
-
+.social-link ul li i{
+    color: white;
+}
+.social-link ul li i:hover{
+    color: #ffa600;
+}
 
 
 .footer-btom{
@@ -789,4 +827,295 @@ footer{
 }
 .make p{
     font-size: 1.4vw;
+}
+
+
+
+
+
+/* inner pages css start */
+
+/* about us page css start */
+
+.inner-page-container{
+    background: #f2eadf;
+}
+
+/* about us header css start */
+.inner-black{
+    color: black !important;
+}
+.inner-black:hover{
+    color: #ffa600 !important;
+}
+.inner-black a i{
+    color: black !important;
+}
+.inner-black a i:hover{
+    color: #ffa600 !important;
+}
+.header{
+    box-shadow: none;
+    border-bottom: 1px solid black;
+}
+
+/* about us sec 1 css start */
+.sec-1-au{
+    width: 100%;
+    padding-top: 10vw;
+}
+.au-i{
+    width: 80vw;
+    margin-left: 9.7vw;
+    display: flex;
+    justify-content: space-between;
+}
+.au-i-left{
+    width: 25vw;
+    /* background: yellow; */
+}
+.au-i-left p{
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+.au-i-left h2{
+    font-size: 3vw;
+}
+.au-i-right{
+    width: 40vw;
+    /* background: yellowgreen; */
+    margin-top: 4vw;
+}
+.au-i-right p{
+    font-size: 1.2vw;
+
+}
+
+/* about us sec 2 css start */
+.sec-2-au{
+    width: 100%;
+    padding: 5vw 0vw;
+}
+.sec-au-2i{
+    width: 90vw;
+    margin-left: 4.7vw;
+    /* background: yellow; */
+}
+.au-flex-box{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+.au-fb1{
+    width: 30vw;
+    /* background: green; */
+}
+.au-fb1 img{
+    width: 100%;
+}
+.au-fb2{
+    width: 30vw;
+    /* background: greenyellow; */
+}
+.au-fb2 img{
+    width: 100%;
+}
+
+/* about us sec 3 css start */
+.sec-3-au{
+    width: 100%;
+    padding: 5vw 0vw;
+}
+.sec-au-3i{
+    width: 80vw;
+    margin-left: 9.7vw;
+    /* background: yellow; */
+
+}
+.sec-au-3i h2{
+    font-size: 3vw;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+.sec-au-3i img{
+    width: 3vw;
+}
+
+/* about us sec 4 css start */
+.sec-4-au{
+    width: 100%;
+    padding-bottom: 5vw;
+    /* background-color: red; */
+}
+.sec-au-4i{
+    width: 90vw;
+    margin-left: 4.7vw;
+    /* background: yellow; */
+}
+.s4-flx-bx{
+    display: flex;
+    gap: 2vw;
+}
+.au4-fbox{
+    width: 30vw;
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw 0vw;
+}
+.au4-fbox h2{
+    font-size: 6vw;
+}
+.au4-fbox p{
+    font-weight: 700;
+}
+
+/* about us sec 5 css start */
+.sec-5-au{
+    width: 80%;
+    margin-left: 9.7vw;
+    /* background: red; */
+    padding: 0vw 0vw 5vw 0vw;
+}
+.s5-flex-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2vw;
+}
+    
+.s5-box1 {
+    grid-row: span 2 / span 2;
+    /* background: yellow; */
+}
+.s5-box1-top{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    /* background: yellowgreen; */
+}
+.s5-box1-top p{
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.s5-box1-btm{
+    margin-top: 30vw;
+}
+.s5-box1 h2{
+    font-size: 2.4vw;
+}
+.s5-box1 h5{
+    font-size: 1.6vw;
+}
+
+
+.s5-box4 {
+    grid-column-start: 2;
+}
+
+.s5-box5 {
+    grid-column-start: 3;
+}
+.s5-box2, 
+.s5-box3, 
+.s5-box4, 
+.s5-box5{
+    overflow: hidden;
+}
+.s5-box2 img, 
+.s5-box3 img, 
+.s5-box4 img, 
+.s5-box5 img {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+} 
+ 
+.s5-box2:hover img, 
+.s5-box3:hover img, 
+.s5-box4:hover img,
+.s5-box5:hover img{ 
+    transform: scale(1.03);
+}
+.s5-box2 h3, 
+.s5-box3 h3, 
+.s5-box4 h3, 
+.s5-box5 h3 {
+    font-size: 1.4vw;
+}
+.s5-box2 p, 
+.s5-box3 p, 
+.s5-box4 p, 
+.s5-box5 p {
+    font-size: 1.2vw;
+    color: #948e87;
+}
+.s5-box6{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 8vw;
+}
+.s5-box6 i{
+    font-size: 3vw;
+}
+.s5-box6 h2{
+    font-size: 1.8vw;
+}
+
+/* about us sec 6 css start */
+.sec-6-au{
+    width: 100%;
+    background: #cc3123;
+    padding: 5vw 0;
+}
+.sec-au-6i{
+    width: 90vw;
+    margin-left: 4.7vw;
+}
+.sec-6-au h5{
+    font-size: 1.2vw;
+    text-align: center;
+    color: white;
+    margin-bottom: 1vw;
+}
+.sec-au-6i h2{
+    font-size: 2.4vw;
+    text-align: center;
+    color: white;
+}
+.s6-card-flex-box{
+    width: 80vw;
+    margin-left: 4.7vw;
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fb-card{
+    width: 20vw;
+    background: white;
+    /* text-align: center; */
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.fb-cardi{
+    margin-top: 1vw;
+    
+}
+.fb-card img{
+    width: 5vw;
+    border-radius: 50px;
+}
+.fb-cardi h5{
+    color: black;
+    text-align: left !important;
+}
+.fb-cardi.p-top{
+    font-size: 2vw;
 }

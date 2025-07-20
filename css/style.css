@@ -1070,20 +1070,18 @@ footer{
 }
 .s6-card-flex-box{
     width: 80vw;
-    margin-left: 4.7vw;
-    background: yellow;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: stretch;
+    gap: 2vw;
+    margin: 2vw 0vw 5vw 4.7vw;
 }
 .fb-card{
-    width: 20vw;
+    width: 18.5vw;
+    height: fit-content;
     background: white;
-    /* text-align: center; */
     padding: 2vw;
-    display: flex;
-    flex-direction: column;
-    
 }
 .fb-cardi{
     margin-top: 1vw;
@@ -1096,7 +1094,57 @@ footer{
 .fb-cardi h5{
     color: black;
     text-align: left !important;
+    font-size: 1.4vw;
+    margin-bottom: 0.5vw;
 }
-.fb-cardi.p-top{
-    font-size: 2vw;
+p.p-top{
+    font-size: 1.4vw;
+    margin-bottom: 1.5vw;
+    color: #8a726b;
+}
+p.p-btm{
+    font-size: 1.6vw;
+    color: #8a726b;
+}
+.review-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: #ffb300;
+    width: 14vw;
+    height: 5vw;
+
+}
+.review-btn a{
+    color: white;
+    font-size: 1.6vw;
+}
+
+/* about us sec 7 css start */
+.sec-7-au{
+    width: 100%;
+    background: #cc3123;
+    padding: 5vw 0;
+}
+.sec-au-7i{
+    width: 90vw;
+    margin-left: 4.7vw;
+    /* background: yellowgreen; */
+}
+.sec-au-7i h5{
+    text-align: center;
+    margin-bottom: 3vw;
+    color: white;
+}
+.s7-flex-box{
+    /* background: red; */
+    display: flex;
+    gap: 2vw;
+}
+.s7-box{
+    width: 25vw;
+}
+.s7-box img{
+    width: 100%;
 }

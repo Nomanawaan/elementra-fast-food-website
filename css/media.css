@@ -45,8 +45,13 @@
 
 /* responsive screen for (575px) */
 @media screen and (max-width: 575px) {
+    .logo img {
+        width: 22vw;
+    }
+
+
     .sec-2 {
-        height: 271vw;
+        height: 260vw;
     }
 
     .sec-2-inner {
@@ -59,7 +64,16 @@
     }
 
     .s2l h6 {
+        font-size: 2.4vw;
+    }
+
+    .s2l h1 {
+        font-size: 4vw;
+    }
+
+    .s2l p {
         font-size: 2vw;
+        line-height: 2.5vw;
     }
 
     .s2r img {
@@ -84,18 +98,301 @@
         top: 125vw;
     }
 
+    .sec-3-inner h6 {
+        font-size: 2.4vw;
+    }
+
+    .sec-3-inner h2 {
+        font-size: 4vw;
+    }
+
+    .s3-flex-box {
+        flex-wrap: wrap;
+    }
+
+    .s3-box {
+        width: 39vw;
+        padding: 5vw 2vw;
+    }
+
+    .s3-box h3 {
+        font-size: 3vw;
+        margin: 1vw 0;
+    }
+
+    .s3-box p {
+        font-size: 2vw;
+    }
+
+    .s4-box {
+        width: 44vw;
+        justify-content: center;
+    }
+
+    .s4-box h3 {
+        font-size: 4vw;
+    }
+
+    .s4-box p {
+        font-size: 2vw;
+    }
+
+    .s4b-btn {
+        font-size: 2.4vw;
+    }
+
+    .s4-box-img {
+        width: 44vw;
+    }
+
+    .s5-top {
+        flex-direction: column;
+    }
+
+    .sec-5-inner h1 {
+        width: 80vw;
+        font-size: 3.5vw;
+    }
+
+    .sec-5-inner .para {
+        width: 80vw;
+        text-align: justify;
+        margin-top: 3vw;
+        font-size: 2vw;
+    }
+
+    .s5-flex-box {
+        justify-content: center;
+    }
 
 
+    .s5-box {
+        width: 75vw;
+    }
 
+    .s5b-img img {
+        width: 18vw;
+    }
 
+    .s5b-tp {
+        width: 60vw;
+    }
 
+    .s5b-text h4 {
+        font-size: 3vw;
+    }
 
+    .s5b-text p {
+        font-size: 2vw;
+    }
 
+    .s5b-price {
+        font-size: 3vw;
+    }
 
+    .s5b-price {
+        width: 6vw;
+    }
 
+    .brdr {
+        border: none;
+    }
 
+    .brdr-2 {
+        padding-bottom: 1vw;
+        border-bottom: 1px solid white;
+    }
 
+    .s5-btn a {
+        font-size: 2vw;
+    }
 
+    .s6-flex-box {
+        flex-direction: column;
+    }
+
+    .sec-7-inner {
+        flex-direction: column;
+    }
+
+    .sec-7-left {
+        width: 90vw;
+        height: 73vw;
+    }
+
+    .sec-7-right {
+        width: 90vw;
+        height: 73vw;
+    }
+
+    .sec-7-left img {
+        width: 25vw;
+    }
+
+    .sec-7-left h2 {
+        font-size: 8vw;
+    }
+
+    .sec-7-left h4 {
+        font-size: 3vw;
+    }
+
+    .sec-7-left h4 {
+        font-size: 3vw;
+    }
+
+    .sec-7-left img {
+        margin-top: -35vw;
+        margin-left: 55vw;
+    }
+
+    .sec-7-right h2 {
+        padding-right: 18vw;
+    }
+
+    .sec-7-right h4 {
+        font-size: 3vw;
+    }
+
+    .s8-flex-box {
+        flex-direction: column;
+    }
+
+    .s8-box {
+        width: 70vw;
+        height: 25vw;
+
+    }
+
+    .s8b-logo {
+        width: 6vw;
+        height: 4vw;
+    }
+
+    .s8-box i {
+        font-size: 3vw;
+    }
+
+    .content h3 {
+        font-size: 3.5vw;
+    }
+
+    .content p {
+        font-size: 2vw;
+    }
+
+    .content h4 {
+        font-size: 2.2vw;
+    }
+
+    .ftr-top {
+        flex-direction: column;
+    }
+
+    .ftr-top-left img {
+        width: 34vw;
+    }
+
+    .ftr-top {
+        gap: 5vw;
+    }
+
+    .ftr-top-right {
+        width: 90vw;
+        gap: 20vw;
+    }
+
+    .ftr-top-right h2 {
+        font-size: 4vw;
+        width: 60vw;
+    }
+
+    .ftr-btwn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ftr-btwn-left {
+        width: 68vw;
+        margin-bottom: 5vw;
+    }
+
+    .ftr-btwn-left h2 {
+        font-size: 3vw;
+        text-align: justify;
+    }
+
+    .ftr-btwn-right {
+        flex-direction: column;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+    }
+
+    .address h2 {
+        font-size: 3vw;
+    }
+
+    .address ul {
+        align-items: center;
+    }
+
+    .address ul li {
+        font-size: 2.5vw;
+    }
+
+    .links {
+        width: 30vw;
+        align-items: center;
+    }
+
+    .links h2 {
+        font-size: 3vw
+    }
+
+    .links ul {
+        align-items: center;
+    }
+
+    .links ul li {
+        font-size: 2.5vw;
+    }
+
+    .social-link {
+        align-items: center;
+        width: 50vw;
+        gap: 5vw;
+    }
+
+    .social-link h2 {
+        font-size: 3vw;
+    }
+
+    .social-link ul {
+        gap: 3vw;
+    }
+
+    .social-link ul li {
+        width: 10vw;
+        height: 10vw;
+        font-size: 4vw;
+        border-radius: 30px;
+        padding: 0vw;
+    }
+
+    .cr p {
+        font-size: 2vw;
+    }
+
+    .make p {
+        font-size: 2vw;
+    }
 
 
 

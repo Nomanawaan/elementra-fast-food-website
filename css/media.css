@@ -58,6 +58,10 @@
         padding-top: 0;
     }
 
+    .s2l h6 {
+        font-size: 2vw;
+    }
+
     .s2r img {
         width: 86vw;
         height: auto;

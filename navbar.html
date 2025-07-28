@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/logo.webp" alt="logo">
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Menu</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Book Now</a></li>
+            <li><a href="#">
+                    <a href="https://x.com/" class="x" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" class="insta" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html>

@@ -45,13 +45,28 @@
 
 /* responsive screen for (575px) */
 @media screen and (max-width: 575px) {
+    .hero-txt-up p {
+        color: white;
+        position: absolute;
+        top: 17vw;
+        right: 5vw;
+        width: 25vw;
+        font-size: 2.5vw;
+    }
+
+    .hero-sec-btm h2 {
+        font-size: 3vw;
+    }
+
+
+
     .logo img {
         width: 22vw;
     }
 
 
     .sec-2 {
-        height: 260vw;
+        height: 270vw;
     }
 
     .sec-2-inner {
@@ -64,15 +79,15 @@
     }
 
     .s2l h6 {
-        font-size: 2.4vw;
+        font-size: 3vw;
     }
 
     .s2l h1 {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
     .s2l p {
-        font-size: 2vw;
+        font-size: 2.5vw;
         line-height: 2.5vw;
     }
 
@@ -94,16 +109,16 @@
     }
 
     .img-bt-txt {
-
+        font-size: 2.5vw;
         top: 125vw;
     }
 
     .sec-3-inner h6 {
-        font-size: 2.4vw;
+        font-size: 3vw;
     }
 
     .sec-3-inner h2 {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
 
     .s3-flex-box {
@@ -116,12 +131,12 @@
     }
 
     .s3-box h3 {
-        font-size: 3vw;
+        font-size: 3.5vw;
         margin: 1vw 0;
     }
 
     .s3-box p {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     .s4-box {
@@ -134,7 +149,7 @@
     }
 
     .s4-box p {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     .s4b-btn {
@@ -151,14 +166,14 @@
 
     .sec-5-inner h1 {
         width: 80vw;
-        font-size: 3.5vw;
+        font-size: 4.5vw;
     }
 
     .sec-5-inner .para {
         width: 80vw;
         text-align: justify;
         margin-top: 3vw;
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     .s5-flex-box {
@@ -179,14 +194,14 @@
     }
 
     .s5b-text h4 {
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .s5b-text p {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
-    .s5b-price {
+    .s5b-price p {
         font-size: 3vw;
     }
 
@@ -204,11 +219,20 @@
     }
 
     .s5-btn a {
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     .s6-flex-box {
         flex-direction: column;
+    }
+
+    .s6-flex-box {
+        width: 60vw;
+    }
+
+    .sec-6-inner {
+        display: flex;
+        justify-content: center;
     }
 
     .sec-7-inner {

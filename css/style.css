@@ -112,10 +112,10 @@ ul.nested-ul {
 .hero-txt-up p {
     color: white;
     position: absolute;
-    top: 24vw;
-    right: 10vw;
-    width: 20vw;
-    font-size: 1.4vw;
+    top: 17vw;
+    right: 5vw;
+    width: 25vw;
+    font-size: 2.5vw;
 }
 
 .head-btm h1 {
@@ -141,7 +141,7 @@ ul.nested-ul {
 }
 
 .hero-sec-btm h2 {
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 /* sec 1 css start */
